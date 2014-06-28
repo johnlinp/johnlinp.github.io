@@ -1,6 +1,7 @@
 body {
     background-color: lavender;
     text-align: center;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
 .blank {
@@ -22,3 +23,6 @@ body {
     right: 0;
 }
 
+.light-grey {
+    color: LightSlateGray;
+}
