@@ -23,11 +23,11 @@ body {
     right: 0;
 }
 
-.upper-caption {
+#upper-caption {
     top: 10px;
 }
 
-.lower-caption {
+#lower-caption {
     bottom: 10px;
 }
 
