@@ -13,21 +13,12 @@ body {
 }
 
 .meme-caption {
-    color: white;
     font-family: Impact;
-    font-size: 36px;
+    font-size: 50px;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-}
-
-#upper-caption {
-    top: 10px;
-}
-
-#lower-caption {
-    bottom: 10px;
 }
 
