@@ -26,8 +26,8 @@
     };
 
     var putPrettyCaption = function(captionLines, topBottom) {
-        var borderSize = 4;
-        for(var i = -borderSize; i <= borderSize; ++ i) {
+        var borderSize = 3;
+        for(var i = -(borderSize * 2); i <= (borderSize * 2); ++ i) {
             for(var j = -borderSize; j <= borderSize; ++ j) {
                 putSingleCaption(captionLines, topBottom, 'black', i, j);
             }
