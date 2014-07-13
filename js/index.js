@@ -1,12 +1,12 @@
 (function() {
-    var memeBgName = 'am-i-the-only-one-around-here';
-    var upperCaptionLines = ['am i the only one', 'around here'];
-    var lowerCaptionLines = ['that comes', 'from taiwan?'];
+    var memeBgName = 'good-friend-john-lin';
+    var upperCaptionLines = ["knows you don't", 'understand this meme'];
+    var lowerCaptionLines = ['explain it to you'];
 
     var putMemeBg = function(memeBgName) {
         var memeBg = document.getElementById('background-image');
         var image = document.createElement('img');
-        image.setAttribute('src', 'images/' + memeBgName + '.jpg');
+        image.setAttribute('src', 'images/' + memeBgName + '.png');
         memeBg.appendChild(image);
     };
 

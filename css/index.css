@@ -18,6 +18,10 @@ body {
     margin: 0 auto;
 }
 
+#background-image img {
+    max-width: 500px;
+}
+
 .meme-caption {
     font-family: Impact, WebImpact;
     font-size: 50px;
