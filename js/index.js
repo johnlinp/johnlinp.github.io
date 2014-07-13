@@ -1,7 +1,7 @@
 (function() {
     var memeBgName = 'good-friend-john-lin';
     var upperCaptionLines = ["knows you don't", 'understand this meme'];
-    var lowerCaptionLines = ['explain it to you'];
+    var lowerCaptionLines = ['explains it to you'];
 
     var putMemeBg = function(memeBgName) {
         var memeBg = document.getElementById('background-image');
