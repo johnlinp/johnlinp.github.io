@@ -1,5 +1,5 @@
 (function() {
-    var memeBgName = 'good-friend-john-lin';
+    var memeBgName = 'meme-lover-john-lin';
     var upperCaptionLines = ["knows you don't", 'understand this meme'];
     var lowerCaptionLines = ['explains it to you'];
 
