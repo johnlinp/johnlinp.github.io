@@ -1,63 +1,126 @@
 <!doctype html>
 <html>
     <head>
-        <title>Meme Lover John Lin</title>
+        <title>John Lin</title>
         <meta http-equiv="Content-Type" content="type=text/html;charset=utf8">
         <link rel="shortcut icon" href="images/favicon.ico" />
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/semantic.min.css">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <style>
+body {
+    background-color: #FAFAFA;
+}
+        </style>
     </head>
 
     <body>
-        <div class="blank"></div>
-        <table align="center">
-            <tr>
-                <td>
-                    <div id="meme">
-                        <div id="background-image"></div>
-                        <div id="meme-caption-group"></div>
-                    </div>
-                </td>
-                <td>
-                    <div id="explain">
-                        <p>This is "Meme Lover John Lin". The captions often describe an enthusiastic person about memes.</p>
-                        <p>In this meme, he knows that you don't understand this meme.</p>
-                        <p>You may expect that he don't know either.</p>
-                        <p>However, it turns out that he explains it to you.</p>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <div class="blank"></div>
-        <h2 class="ui header"><span class="light-grey">More About</span> Meme Lover John Lin:</h2>
-        <div id="links">
-            <a class="ui black button" target="_blank" href="https://github.com/johnlinp">
-                <i class="github icon"></i>Github
-            </a>
-            <a class="ui orange button" target="_blank" href="http://johnlin.tw/documents/resume.pdf">
-                <i class="file icon"></i>CV
-            </a>
-            <a class="ui red button" target="_blank" href="mailto:johnlinp@gmail.com">
-                <i class="mail icon"></i>Email
-            </a>
-            <a class="ui twitter button" target="_blank" href="https://twitter.com/intent/user?screen_name=johnlinp">
-                <i class="twitter icon"></i>Twitter
-            </a>
+        <div><img src="./images/john-lin.png" /></div>
+        <div><h1>John Lin</h1></div>
+        <div>
+            <p>Hi. Here is the place I put my opensource contribution records. I like it when those records remind me that my code is running somewhere in the real world. The list keeps growing.</p>
+            <p>You can jump to the anchors by clicking on <a href="#my-projects">my projects</a> and <a href="#my-contributions-to-other-projects">my contributions to other projects</a>.</p>
         </div>
-        <div class="blank"></div>
 
-        <script src="js/index.js"></script>
+        <hr>
 
-        <script type="text/javascript">
-          var clicky_site_ids = clicky_site_ids || [];
-          clicky_site_ids.push(100902831);
-          (function() {
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = '//static.getclicky.com/js';
-            ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
-          })();
-        </script>
+        <h2 id="my-projects">My Projects</h2>
+
+        <h3><a href="https://github.com/johnlinp/pdf-to-markdown" target="_blank">pdf-to-markdown</a></h3>
+        <p>Converts a PDF file into Markdown files. Also supports <a href="https://www.gitbook.com/">GitBook</a>.</p>
+
+        <h3><a href="https://github.com/johnlinp/telegram-good-timing-bot" target="_blank">Telegram Good Timing Bot</a></h3>
+        <p>A <a href="https://telegram.org/">Telegram</a> bot to manage your todo list.</p>
+
+        <h3><a href="https://github.com/johnlinp/meme-ocr" target="_blank">Meme OCR</a></h3>
+        <p>Optical Character Recognition (OCR) on funny memes.</p>
+
+        <h3><a href="https://github.com/johnlinp/falcon-raml" target="_blank">falcon-raml</a></h3>
+        <p>Parameter checker middleware using RAML for Falcon. You can install by <code>pip install falcon-raml</code>.</p>
+
+        <h3><a href="https://github.com/johnlinp/crowd-translate" target="_blank">Crowd Translate</a></h3>
+        <p>Easy for everyone to translate funny pictures.</p>
+
+        <h3><a href="https://github.com/johnlinp/karaoke.css" target="_blank">karaoke.css</a></h3>
+        <p>Pure CSS to play a karaoke video.</p>
+
+        <h3><a href="https://github.com/johnlinp/nose-meter" target="_blank">Nose Meter</a></h3>
+        <p>Crowdsourcing website for examine whether politicians did what they promised.</p>
+
+        <hr>
+
+        <h2 id="my-contributions-to-other-projects">My Contributions to Other Projects</h2>
+
+        <h3>systemd</h3>
+        <ul>
+            <li><a href="https://github.com/systemd/systemd/pull/7158" target="_blank">systemctl: respect [Install] section in drop-ins</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/7715" target="_blank">install: search preset files in /run</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/6794" target="_blank">units: remove unnecessary Requires= and After= in system.slice</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/7067" target="_blank">systemctl: supress enable/disable messages when -q is given</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/7244" target="_blank">mkosi: set locale to be en_US.UTF-8</a></li>
+        </ul>
+
+        <h3>OpenStack - Keystone</h3>
+        <ul>
+            <li><a href="https://review.openstack.org/#/c/413495/" target="_blank">Handle disk write failure when doing Fernet key rotation</a></li>
+        </ul>
+
+        <h3>vmtouch</h3>
+        <ul>
+            <li><a href="https://github.com/hoytech/vmtouch/pull/62" target="_blank">Add -P option for PID file</a></li>
+        </ul>
+
+        <h3>Chromium App - Secure Shell</h3>
+        <ul>
+            <li><a href="https://chromium-review.googlesource.com/c/apps/libapps/+/954771" target="_blank">hterm: don't use user-configured word break matches when ctrl-clicking on urls</a></li>
+            <li><a href="https://chromium-review.googlesource.com/c/apps/libapps/+/965728" target="_blank">hterm: double click should expand selection whether "copy-on-select" is on or off</a></li>
+        </ul>
+
+        <h3>Ceph</h3>
+        <ul>
+            <li><a href="https://github.com/ceph/ceph/pull/12939" target="_blank">cmake: search for nspr include files for both suffixes: nspr4 and nspr</a></li>
+        </ul>
+
+        <h3>geoip</h3>
+        <ul>
+            <li><a href="https://github.com/maxmind/geoip-api-c/pull/90" target="_blank">Do nothing when pointer is NULL in GeoIPRecord_delete</a></li>
+        </ul>
+
+        <h3>mkosi</h3>
+        <ul>
+            <li><a href="https://github.com/systemd/mkosi/pull/187" target="_blank">mkosi: generate default UTF-8 locale for Arch Linux</a></li>
+        </ul>
+
+        <h3>Yelp - ElastAlert</h3>
+        <ul>
+            <li><a href="https://github.com/Yelp/elastalert/pull/488" target="_blank">Fix arrayOfStringsOrOtherArray types</a></li>
+        </ul>
+
+        <h3>Fix Documentation</h3>
+
+        <h3>systemd</h3>
+        <ul>
+            <li><a href="https://github.com/systemd/systemd/pull/6761" target="_blank">man: fix systemd-analyze plot commands</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/6801" target="_blank">man: explicitly distinguish "implicit dependencies" and "default dependencies"</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/6869" target="_blank">man: Requires= needs After= to deactivate "this unit"</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/6934" target="_blank">man: move non-target units together</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/7121" target="_blank">man: mention /run in systemd.generator document</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/7323" target="_blank">man: rescue.target could be seen as single-user.target</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/7391" target="_blank">man: Requires= stops this unit when dependencies get deactivated</a></li>
+            <li><a href="https://github.com/systemd/systemd/pull/7892" target="_blank">man: fix broken kernel document links</a></li>
+        </ul>
+
+        <h3>syslog-ng</h3>
+        <ul>
+            <li><a href="https://github.com/balabit/syslog-ng-ose-guides/pull/24" target="_blank">Fix typo</a></li>
+        </ul>
+
+        <h3>fluentd</h3>
+        <ul>
+            <li><a href="https://github.com/fluent/fluentd-docs/pull/262" target="_blank">filter_record_transformer: Fix typo of example json</a></li>
+        </ul>
+
+        <h3>PRADS</h3>
+        <ul>
+            <li><a href="https://github.com/gamelinux/prads/pull/47" target="_blank">Fix typo</a></li>
+        </ul>
     </body>
 </html>
