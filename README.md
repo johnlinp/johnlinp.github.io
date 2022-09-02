@@ -1,3 +1,3 @@
 # My Website
 
-Easier to introduce myself. Please visit [http://johnlin.tw/](http://johnlin.tw/).
+Make it easier to introduce myself. Please visit [http://johnlin.tw/](http://johnlin.tw/).
